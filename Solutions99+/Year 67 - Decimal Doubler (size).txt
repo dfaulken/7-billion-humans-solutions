@@ -16,8 +16,6 @@ if c == datacube:
 	endif
 	if mem1 >= 10:
 		mem1 = calc mem1 - 10
-	else:
-		mem1 = calc mem1 - 0
 	endif
 	pickup c
 	write mem1
